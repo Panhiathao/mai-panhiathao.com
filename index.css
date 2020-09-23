@@ -1,7 +1,7 @@
 body {
     background-color: darkred;
     color: whitesmoke;
-    text-align: center;
+    
     
 }
 
@@ -18,28 +18,51 @@ header {
 
 }
 
+
 main {
     background-color: blue;
     display: flex;
     flex-direction: column;
-    
-    
 }
+
+
 
 footer {
     background-color: pink;
 }
 
+h1 {
+    color: yellow;
+    text-align: left;
+    font-size: 4em;
+    padding-bottom: 45vh;
+}
+
+
 section {
     background-color: purple;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+article {
+    background-color: orange;
+    border: 1px dash white;
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    height: 15vh;
 }
 
 @media (max-width: 480px) {
-    main {
+    section {
         flex-direction: column;
     }
 
-    section {
+    article {
         width: 100vw;
         height: 40vh;
     }
