@@ -4,3 +4,43 @@ body {
     text-align: center;
     
 }
+
+header {
+    background-image: url(/image/maiyellowflower.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+
+}
+
+main {
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+footer {
+    background-color: pink;
+}
+
+section {
+    background-color: purple;
+}
+
+@media (max-width: 480px) {
+    main {
+        flex-direction: column;
+    }
+
+    section {
+        width: 100vw;
+        height: 40vh;
+    }
+}
