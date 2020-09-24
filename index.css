@@ -62,8 +62,4 @@ img {
         flex-direction: column;
     }
 
-    article {
-        width: 100vw;
-        height: 40vh;
-    }
 }
