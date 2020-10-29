@@ -1,15 +1,20 @@
 body {
-    background-color: darkred;
-    color: whitesmoke;
+    background-color: whitesmoke;
+    color: darkred;
+    font-size: 1.5em;
+    width: 100vw;
+    height: 100vh;
     
     
 }
 
-header {
+main {
     background-image: url(/image/maiyellowflower.jpg);
     background-size: cover;
     background-position: center;
+    width: 100vw;
     height: 100vh;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,20 +23,16 @@ header {
 
 }
 
-
-main {
-    background-color: blue;
-    display: flex;
-    flex-direction: column;
+nav {
+    padding-right: 15vw;
+    text-align: right;
 }
-
-
 
 footer {
-    background-color: pink;
+   text-align: center;
 }
 
-h1 {
+/* h1 {
     color: yellow;
     text-align: left;
     font-size: 4em;
@@ -55,7 +56,7 @@ article {
 
 img {
     height: 15vh;
-}
+} */
 
 @media (max-width: 480px) {
     section {
